@@ -1,0 +1,220 @@
+{
+  "users": [
+    {
+      "email": "admin@mail.com",
+      "password": "$2a$10$yXMwQguEio7i9sqfxyPYM.6n7iAzS4Hnddg6/H91.zRYMN4xdO2Lm",
+      "confirmPassword": "123456",
+      "userName": "admin",
+      "isCompany": false,
+      "id": 1
+    },
+    {
+      "email": "lanche@mail.com",
+      "password": "$2a$10$M1W4mrXrzT5P0o.CESeF7.k3g6sC7hHRP7S/GPhe2jMzrXmLkFTIa",
+      "userName": "Kilanche",
+      "confirmPassword": "123456",
+      "foodCategory": "lanches",
+      "isCompany": true,
+      "id": 2
+    },
+    {
+      "email": "skina@mail.com",
+      "password": "$2a$10$QzMsphnsHuHbW1h0.jCn5e9fQ1sK4m/BVtcTSf8DINBcDPEDSuK.K",
+      "userName": "Skina Lanches",
+      "confirmPassword": "123456",
+      "foodCategory": "lanches",
+      "isCompany": true,
+      "id": 3
+    },
+    {
+      "email": "nero@mail.com",
+      "password": "$2a$10$AM4GJZXDWwcuKuIuGvf/BulNFflpS/ZAvVZUiB0NRphJO2dZBiIyK",
+      "userName": "Nero Café",
+      "confirmPassword": "123456",
+      "foodCategory": "cafeteria",
+      "isCompany": true,
+      "id": 4
+    },
+    {
+      "email": "paix@mail.com",
+      "password": "$2a$10$ssaHyaQIJZB2H8yjMTO8E.OmjxZAsQAbFG7R97CsRD6ElDzgNWM2a",
+      "userName": "Café de la Paix",
+      "confirmPassword": "123456",
+      "foodCategory": "cafeteria",
+      "isCompany": true,
+      "id": 5
+    },
+    {
+      "email": "madalosso@mail.com",
+      "password": "$2a$10$LZLOj29rKcSOoo4gGtsSNOPU3i.zg79DoHE/.U8HoQwzJ1UybX1py",
+      "userName": "Madalosso",
+      "confirmPassword": "123456",
+      "foodCategory": "restaurante",
+      "isCompany": true,
+      "id": 6
+    },
+    {
+      "email": "noma@mail.com",
+      "password": "$2a$10$8zAvU3khnqAcQCG9/8I2vuuNvfNy/WqeS5g/REBMZ3dAhUFLr22gi",
+      "userName": "Noma",
+      "confirmPassword": "123456",
+      "foodCategory": "restaurante",
+      "isCompany": true,
+      "id": 7
+    },
+    {
+      "email": "rewe@mail.com",
+      "password": "$2a$10$SwO7fiObkBnaGNzBUJm8auK2P2m7E9Vvx8sS5iJfUBUym6ZYGa3IC",
+      "userName": "Rewe",
+      "confirmPassword": "123456",
+      "foodCategory": "mercado",
+      "isCompany": true,
+      "id": 9
+    },
+    {
+      "email": "aldi@mail.com",
+      "password": "$2a$10$zKgygns1xugyiiyCJRDtieXUf87tMBubvAYvGMT6eWImwQ1tuqW7S",
+      "userName": "Aldi",
+      "confirmPassword": "123456",
+      "foodCategory": "mercado",
+      "isCompany": true,
+      "id": 10
+    },
+    {
+      "email": "joao@mail.com",
+      "password": "$2a$10$RBMY9r1O7mdT7G58omtw9.EP1DSGHVJkmOOyNSiEpQQcy7i4ITskm",
+      "confirmPassword": "123456",
+      "userName": "João da Silva",
+      "isCompany": false,
+      "id": 11
+    }
+  ],
+  "products": [
+    {
+      "title": "Panificação",
+      "originalPrice": 50,
+      "discount": 20,
+      "quantity": 5,
+      "userId": 10,
+      "company": "Aldi",
+      "id": 1
+    },
+    {
+      "title": "Alimentos laticínios",
+      "originalPrice": 30,
+      "discount": 50,
+      "quantity": 3,
+      "userId": 10,
+      "company": "Aldi",
+      "id": 2
+    },
+    {
+      "title": "Salames diversos",
+      "originalPrice": 25,
+      "discount": 24,
+      "quantity": 4,
+      "userId": 9,
+      "company": "Rewe",
+      "id": 3
+    },
+    {
+      "title": "Macarronada",
+      "originalPrice": 60,
+      "discount": 40,
+      "quantity": 8,
+      "userId": 7,
+      "company": "Noma",
+      "id": 6
+    },
+    {
+      "title": "Sushi",
+      "originalPrice": 30,
+      "discount": 20,
+      "quantity": 2,
+      "userId": 7,
+      "company": "Noma",
+      "id": 7
+    },
+    {
+      "title": "Polenta",
+      "originalPrice": 30,
+      "discount": 20,
+      "quantity": 2,
+      "userId": 6,
+      "company": "Madalosso",
+      "id": 8
+    },
+    {
+      "title": "Frango frito",
+      "originalPrice": 20,
+      "discount": 27,
+      "quantity": 4,
+      "userId": 6,
+      "company": "Madalosso",
+      "id": 9
+    },
+    {
+      "title": "Biscoitinhos",
+      "originalPrice": 20,
+      "discount": 30,
+      "quantity": 4,
+      "userId": 5,
+      "company": "Café de la Paix",
+      "id": 10
+    },
+    {
+      "title": "Café com leite",
+      "originalPrice": 20,
+      "discount": 30,
+      "quantity": 10,
+      "userId": 5,
+      "company": "Café de la Paix",
+      "id": 11
+    },
+    {
+      "title": "Latte Macchiato",
+      "originalPrice": 20,
+      "discount": 30,
+      "quantity": 10,
+      "userId": 4,
+      "company": "Nero Café",
+      "id": 12
+    },
+    {
+      "title": "Cookies",
+      "originalPrice": 40,
+      "discount": 50,
+      "quantity": 8,
+      "userId": 4,
+      "company": "Nero Café",
+      "id": 13
+    },
+    {
+      "title": "X-tudo",
+      "originalPrice": 40,
+      "discount": 50,
+      "quantity": 8,
+      "userId": 3,
+      "company": "Skina Lanches",
+      "id": 14
+    },
+    {
+      "title": "X-podrão",
+      "originalPrice": 20,
+      "discount": 50,
+      "quantity": 8,
+      "userId": 3,
+      "company": "Skina Lanches",
+      "id": 15
+    },
+    {
+      "title": "Batata frita",
+      "originalPrice": 10,
+      "discount": 50,
+      "quantity": 2,
+      "userId": 2,
+      "company": "Kilanche",
+      "id": 16
+    }
+  ]
+}

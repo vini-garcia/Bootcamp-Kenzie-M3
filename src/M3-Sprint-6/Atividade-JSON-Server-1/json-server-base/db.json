@@ -1,0 +1,57 @@
+{
+  "users": [
+    {
+      "email": "kenzinho@mail.com",
+      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
+      "name": "Kenzinho",
+      "age": 38,
+      "id": 1
+    },
+    {
+      "email": "vini@mail.com",
+      "password": "$2a$10$IjcVfhUOjgN9qPr.Twxlgec4IVzK8.9aB6N4B0yayImFRuxIpvpx6",
+      "name": "Vini",
+      "id": 2
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "name": "livro 1"
+    },
+    {
+      "id": 2,
+      "name": "livro 2"
+    }
+  ],
+  "posts": [
+    {
+      "title": "meu novo post",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "title": "post 2",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "title": "post 3",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "title": "post 4",
+      "userId": 1,
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "comment": "Post legal",
+      "postId": 2,
+      "userId": 1,
+      "id": 1
+    }
+  ]
+}

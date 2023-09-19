@@ -1,0 +1,330 @@
+.body {
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.8125rem;
+}
+
+.header {
+    width: 100%;
+    height: 4.3125rem;
+    
+    padding-left: 1.25rem;
+
+    display: flex;
+    align-items: center;
+
+    box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+}
+
+.header__image {
+    width: 7.0625rem;
+    height: 1.125rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.1875rem;
+    
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.sectionNewValue {
+    width: 22.1875rem;
+    height: 27.125rem;
+
+    border: 1px solid rgba(0, 0, 0, 0.2);
+
+    padding: 1.875rem 0px 0px 1.3125rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.0625rem;
+}
+
+.labelDescription, .labelValue, .labelType{
+    font-size: 0.75rem;
+    font-weight: 400;
+
+    color: var(--grey-4);
+}
+
+.inputDescription, .inputValue, .selectType{
+    width: 19.625rem;
+    height: 3.3125rem;
+
+    border-radius: 0.5rem;
+    border: 2px solid var(--grey-1);
+
+    padding: 1rem;
+
+    background-color: var(--grey-1);
+
+    font-size: 1rem;
+    font-weight: 400;
+
+    color: var(--grey-4);
+}
+
+.inputDescription::placeholder, .inputValue::placeholder, .selectType::placeholder{
+    color: var(--grey-3);
+}
+
+option{
+    background-color: var(--grey-2);
+
+    font-size: 1rem;
+    font-weight: 400;
+
+    color: var(--grey-4);
+}
+
+.textDescriptionNewValue {
+    font-size: 0.75rem;
+    font-weight: 400;
+
+    color: var(--grey-3);
+}
+
+.buttonInsert {
+    width: 19.625rem;
+    height: 3rem;
+
+    border-radius: 0.5rem;
+    border: 2px solid var(--color-primary);
+
+    background-color: var(--color-primary);
+
+    font-size: 1.3rem;
+    font-weight: 500;
+
+    color: #FFFFFF;
+}
+
+.buttonInsert:hover{
+    background-color: var(--color-primary-2);
+}
+
+.sectionTotalValue {
+    width: 22.1875rem;
+    height: 6rem;
+
+    border-radius: 0.25rem;
+    border: 1px solid var(--grey-2);
+
+    padding: 1.25rem 1.25rem 1.125rem 1.4375rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.valueContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textValue {
+    font-size: 1rem;
+    font-weight: 700;
+
+    color: var(--grey-4);
+}
+
+.valueNumber {
+    font-size: 1rem;
+    font-weight: 700;
+
+    color: var(--color-primary);
+}
+
+.textDescriptionActualValue {
+    font-size: 0.75rem;
+    font-weight: 400;
+
+    color: var(--grey-3);
+}
+
+.sectionFinancialBalance {
+    width: 22.1875rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.balanceText {
+    font-size: 1rem;
+    font-weight: 700;
+
+    color: var(--grey-4);
+}
+
+.noBalanceContainer {
+    width: 21rem;
+}
+
+.noBalanceText {
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 2.125rem;
+
+    color: var(--grey-4);
+}
+
+.ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4375rem;
+}
+
+.li {
+    width: 21.9375rem;
+    height: 9.75rem;
+
+    border-radius: 0.25rem;
+
+    background-color: var(--grey-1);
+
+    padding: 14px 0px 1.3125rem 1.375rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.liDescription {
+    font-size: 1rem;
+    font-weight: 700;
+
+    color: var(--grey-4);
+}
+
+.liType {
+    font-size: 0.75rem;
+    font-weight: 400;
+
+    color: var(--grey-3);
+}
+
+.liType::first-letter{
+    text-transform: capitalize;
+}
+
+.liValue {
+    font-size: 0.75rem;
+    font-weight: 400;
+
+    color: var(--grey-4);
+}
+
+.buttonDelete {
+    width: 3rem;
+    height: 1.1875rem;
+    
+    border-radius: 0.125rem;
+
+    background-color: var(--grey-2);
+
+    font-size: 0.625rem;
+    font-weight: 400;
+
+    color: var(--grey-4);
+}
+
+.buttonDelete:hover{
+    background-color: var(--grey-3);
+}
+
+.greenBorder{
+    border-left: 5px solid var(--color-secondary); 
+}
+
+.greyBorder{
+    border-left: 5px solid var(--grey-2);
+}
+
+
+@media (min-width: 1082px){
+
+    .header {
+        width: 100%;
+        height: 5.5rem;
+        
+        padding-left: 16.3125rem;
+    }
+    
+    .header__image {
+        width: 7.625rem;
+        height: 1.1875rem;
+    }
+    
+    .main {
+        padding: 2.4375rem 16.25rem 0 16.3125rem;
+
+        margin-top: 0px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 2rem;
+
+        position: relative;
+    }
+
+    .sectionNewValue{
+        padding: 1rem;
+    }
+    
+    .sectionTotalValue {
+        position: absolute;
+        top: 500px;
+        display: flex;
+    }
+   
+    .sectionFinancialBalance {
+        width: 35rem;
+    }
+
+    .noBalanceContainer {
+        width: 100%;
+        display: flex;
+    }
+
+    .noBalanceText {
+        font-size: 1.375rem;
+        font-weight: 700;
+    
+        color: var(--grey-4);
+
+        min-width: 500px;
+    }
+   
+    .li {
+        min-width: 430px;
+        width: 100%;
+        height: 5.4375rem;
+
+        position: relative;
+    }
+
+    .liValue {
+        position: absolute;
+        right: 16px;
+        top: 25px;
+    }
+
+    .buttonDelete {
+        position: absolute;
+        right: 16px;
+        top: 48px;
+    }
+
+}
